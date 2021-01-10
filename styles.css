@@ -109,6 +109,10 @@ input {
   width: 100%;
 }
 
+.input-validation-error {
+  border-color: crimson;
+}
+
 .FormLeftColumn {
   margin-right: 5px;
 }
@@ -121,6 +125,7 @@ input {
 .field-validation-error > span {
   color: crimson;
   padding: 0.5rem;
+  font-size: 0.8rem;
 }
 
 select {
