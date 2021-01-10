@@ -1,6 +1,7 @@
 * {
   font-family: Roboto, "Helvetica Neue", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
+  box-sizing: border-box;
 }
 
 html,
@@ -105,7 +106,7 @@ input {
 }
 
 .FormCardNumberField {
-  width: 300px;
+  width: 100%;
 }
 
 .FormLeftColumn {
