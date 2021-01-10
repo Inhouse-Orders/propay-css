@@ -3,7 +3,7 @@
 }
 
 .FieldSet {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 8px;
 }
 
@@ -28,7 +28,7 @@
   --group-border-focus: var(--input-border-focus);
   --group-background-focus: #678efe;
 }
-input, select {
+input {
   box-sizing: inherit;
   border-width: 0;
   border-style: solid;
@@ -37,12 +37,12 @@ input, select {
   margin: 0;
   overflow: visible;
   font-family: inherit;
-  background-color: #dae4e9;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-radius: 0.25rem;
   -webkit-box-flex: 1;
   flex: 1;
   padding: 0.75rem;
   color: #364349;
   font-size: 0.875rem;
+}
+select {
 }
