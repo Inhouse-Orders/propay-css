@@ -108,6 +108,10 @@ input {
   width: 300px;
 }
 
+.FormLeftColumn {
+  margin-right: 5px;
+}
+
 .field-validation-error {
   display: flex;
   margin: auto 0.25rem;
