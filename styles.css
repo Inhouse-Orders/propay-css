@@ -90,6 +90,10 @@ input {
   margin-bottom: 0.5rem;
 }
 
+.FormCardNumberField {
+  flex-grow: 1;
+}
+
 select {
   -webkit-box-direction: normal;
   box-sizing: inherit;
@@ -113,4 +117,5 @@ select {
   padding-right: 8px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+
 }
