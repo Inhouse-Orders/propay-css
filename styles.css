@@ -14,6 +14,11 @@ body {
   border-radius: 8px;
 }
 
+.FormRow {
+  display: flex;
+  align-items: center;
+}
+
 .Legend,
 .FormDescription,
 .FieldSetOrder {
@@ -92,11 +97,15 @@ input {
   box-shadow: 0 1px 3px 0 #b0b1b1;
   transition: box-shadow 0.15s ease;
   border: 1px solid #ccc;
-  width: 300px;
+  margin: auto 5px;
 }
 
 .FormCardNumberValue {
   flex-grow: 1;
+}
+
+.FormCardNumberField {
+  width: 300px;
 }
 
 .field-validation-error {
@@ -106,11 +115,6 @@ input {
 
 .field-validation-error > span {
   color: crimson;
-}
-
-.FormRow {
-  display: flex;
-  align-items: center;
 }
 
 select {
