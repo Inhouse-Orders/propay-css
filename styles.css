@@ -1,5 +1,5 @@
 * {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .FieldSetOrder {
   display: none;
@@ -55,16 +55,17 @@ select {
   margin: 0;
   text-transform: none;
   font-family: inherit;
-  appearance: none;
   background-color: #f3f7f9;
   border-color: #f3f7f9;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   border-width: 1px;
   border: 1px solid #666;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   padding-left: 1rem;
   padding-right: 2rem;
   color: #596a73;
+  padding-left: 8px;
+  padding-right: 8px;
 
 }
