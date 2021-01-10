@@ -11,7 +11,7 @@
   --group-border-focus: var(--input-border-focus);
   --group-background-focus: #678efe;
 }
-.form-field {
+input, select {
   display: block;
   width: 100%;
   padding: 8px 16px;
@@ -26,14 +26,14 @@
   background: var(--input-background); 
   transition: border 0.3s ease;
 }
-.form-field::placeholder {
+input::placeholder, select::placeholder {
   color: var(--input-placeholder);
 }
-.form-field:focus {
+input:focus, select:focus {
   outline: none;
   border-color: var(--input-border-focus);
 }
-.form-group {
+.TextBox {
   position: relative;
   display: flex;
   width: 100%;
@@ -54,7 +54,7 @@
 .form-group > span:not(:first-child), .form-group .form-field:not(:first-child) {
   margin-left: -1px;
 }
-.form-group .form-field {
+input .TextBox {
   position: relative;
   z-index: 1;
   flex: 1 1 auto;
@@ -94,7 +94,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #f5f9ff;
 }
 body .form-group {
   max-width: 360px;
