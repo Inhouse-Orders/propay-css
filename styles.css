@@ -90,7 +90,8 @@ input {
   margin-bottom: 0.5rem;
 }
 
-.FormCardNumberField {
+.FormCardNumberField,
+.FormCardNumberValue {
   flex-grow: 1;
 }
 
@@ -117,5 +118,4 @@ select {
   padding-right: 8px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-
 }
