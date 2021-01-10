@@ -1,11 +1,14 @@
-/* * {
-  font-family: Roboto, "Helvetica Neue", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-} */
-/* html, body {
+* {
+  font-family: Roboto, "Helvetica Neue", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+html,
+body {
   margin: 0;
   height: auto;
-} */
-/* 
+}
+
 .FieldSet {
   border: 2px solid #ccc;
   border-radius: 8px;
@@ -18,8 +21,13 @@
 }
 
 .RequiredField {
-  color: red;
+  color: crimson;
 }
+
+.ErrorMessage {
+  color: crimson;
+}
+
 #btnCancel {
   display: none;
 }
@@ -74,6 +82,7 @@ input {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 select {
   -webkit-box-direction: normal;
   box-sizing: inherit;
@@ -97,4 +106,4 @@ select {
   padding-right: 8px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-} */
+}
