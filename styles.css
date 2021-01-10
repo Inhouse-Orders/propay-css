@@ -1,3 +1,15 @@
-* {
-background-color: red;  
+.FieldSetOrder {
+    display: none;
+}
+.FieldSet {
+  display: none;
+}
+.Legend {
+  display: none;
+}
+#btnCancel {
+  display: none;
+}
+.button {
+  width: 100%
 }
