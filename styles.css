@@ -57,19 +57,6 @@ html, body {
   margin: 0.5rem auto;
 }
 
-:root {
-  --input-color: #99a3ba;
-  --input-border: #cdd9ed;
-  --input-background: #fff;
-  --input-placeholder: #cbd1dc;
-  --input-border-focus: #275efe;
-  --group-color: var(--input-color);
-  --group-border: var(--input-border);
-  --group-background: #eef4ff;
-  --group-color-focus: #fff;
-  --group-border-focus: var(--input-border-focus);
-  --group-background-focus: #678efe;
-}
 input {
   box-sizing: inherit;
   line-height: 1.15;
