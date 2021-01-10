@@ -92,7 +92,7 @@ input {
   box-shadow: 0 1px 3px 0 #b0b1b1;
   transition: box-shadow 0.15s ease;
   border: 1px solid #ccc;
-  width: 100%;
+  width: 300px;
 }
 
 .FormCardNumberValue {
