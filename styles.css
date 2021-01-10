@@ -1,3 +1,6 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .FieldSetOrder {
   display: none;
 }
@@ -35,8 +38,7 @@ input {
   overflow: visible;
   font-family: inherit;
   border-radius: 0.25rem;
-  border: 1px solid #333;
-
+  border: 1px solid #666;
   -webkit-box-flex: 1;
   flex: 1;
   padding: 0.75rem;
@@ -58,8 +60,7 @@ select {
   border-color: #f3f7f9;
   border-radius: .25rem;
   border-width: 1px;
-  border: 1px solid #333;
-  display: block;
+  border: 1px solid #666;
   padding-top: .75rem;
   padding-bottom: .75rem;
   padding-left: 1rem;
