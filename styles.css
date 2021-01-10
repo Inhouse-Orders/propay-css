@@ -119,6 +119,7 @@ input {
 
 .field-validation-error > span {
   color: crimson;
+  padding: 0.5rem;
 }
 
 select {
