@@ -11,7 +11,8 @@
   display: none;
 }
 .button {
-    width: 100%
+    background-color: #3f51b5;
+    width: 100%;
     box-sizing: border-box;
     position: relative;
     -webkit-user-select: none;
