@@ -90,14 +90,9 @@ input {
   margin-bottom: 0.5rem;
 }
 
-.FormCardNumberField,
-.FormCardNumberValue {
-  display: flex;
-  flex-grow: 1;
-}
 .field-validation-error {
   display: flex;
-margin: auto 0.25rem;
+  margin: auto 0.25rem;
 }
 
 .field-validation-error > span {
