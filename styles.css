@@ -43,6 +43,28 @@ input {
   padding: 0.75rem;
   color: #364349;
   font-size: 0.875rem;
+  background-color: #edf2f7;
 }
 select {
+  -webkit-box-direction: normal;
+  box-sizing: inherit;
+  border-style: solid;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: none;
+  font-family: inherit;
+  appearance: none;
+  background-color: #f3f7f9;
+  border-color: #f3f7f9;
+  border-radius: .25rem;
+  border-width: 1px;
+  display: block;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  color: #596a73;
+  width: 100%;
+
 }
