@@ -2,7 +2,7 @@
     display: none;
 }
 .FieldSet {
-  display: none;
+  border: 0;
 }
 .Legend {
   display: none;
