@@ -1,16 +1,15 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.FieldSetOrder {
-  display: none;
-}
 
 .FieldSet {
   border: 2px solid #ccc;
   border-radius: 8px;
 }
 
-.Legend {
+.Legend,
+.FormDescription,
+.FieldSetOrder {
   display: none;
 }
 
@@ -51,7 +50,9 @@
   background-color: #3f51b5;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  margin: 0.5rem auto;
 }
+
 :root {
   --input-color: #99a3ba;
   --input-border: #cdd9ed;
