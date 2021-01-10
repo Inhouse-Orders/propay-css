@@ -30,14 +30,13 @@
 }
 input {
   box-sizing: inherit;
-  border-width: 0;
-  border-style: solid;
-  border-color: #dae4e9;
   line-height: 1.15;
   margin: 0;
   overflow: visible;
   font-family: inherit;
   border-radius: 0.25rem;
+  border: 1px solid #333;
+
   -webkit-box-flex: 1;
   flex: 1;
   padding: 0.75rem;
@@ -59,12 +58,12 @@ select {
   border-color: #f3f7f9;
   border-radius: .25rem;
   border-width: 1px;
+  border: 1px solid #333;
   display: block;
   padding-top: .75rem;
   padding-bottom: .75rem;
   padding-left: 1rem;
   padding-right: 2rem;
   color: #596a73;
-  width: 100%;
 
 }
