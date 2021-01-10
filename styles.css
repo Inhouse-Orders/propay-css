@@ -2,8 +2,9 @@
   display: none;
 }
 
-.fieldset {
-  border: 0;
+.FieldSet {
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
 .Legend {
@@ -27,7 +28,7 @@
   --group-border-focus: var(--input-border-focus);
   --group-background-focus: #678efe;
 }
-input {
+input, select {
   box-sizing: inherit;
   border-width: 0;
   border-style: solid;
