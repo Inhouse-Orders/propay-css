@@ -40,12 +40,6 @@ body {
 }
 
 .button {
-
-  visibility: hidden; 
-  position: relative; 
-}
-
-.button:after {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -77,13 +71,8 @@ body {
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   margin: 0.5rem auto;
 
-
-  visibility: visible; 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  content: "Devnote is developer answer solve. devnote.in"; 
 }
+
 
 input {
   box-sizing: inherit;
