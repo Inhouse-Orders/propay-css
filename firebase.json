@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "/",
+    "site": "payment-processing-styles",
     "ignore": [
       "firebase.json",
       "**/.*",
