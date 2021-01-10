@@ -70,9 +70,7 @@ body {
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   margin: 0.5rem auto;
-
 }
-
 
 input {
   box-sizing: inherit;
@@ -87,13 +85,18 @@ input {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 
-  background-color: #f7f7f1;
+  background-color: #f1f4f7;
   padding: 8px 12px;
   border-radius: 4px;
   border: 1px solid transparent;
   box-shadow: 0 1px 3px 0 #b0b1b1;
-  transition: box-shadow .15s ease;
+  transition: box-shadow 0.15s ease;
   border: 1px solid #ccc;
+  width: 100%;
+}
+
+.FormCardNumberValue {
+  flex-grow: 1;
 }
 
 .field-validation-error {
@@ -105,6 +108,11 @@ input {
   color: crimson;
 }
 
+.FormRow {
+  display: flex;
+  align-items: center;
+}
+
 select {
   -webkit-box-direction: normal;
   box-sizing: inherit;
@@ -114,7 +122,6 @@ select {
   margin: 0;
   text-transform: none;
   font-family: inherit;
-  border-color: #f3f7f9;
   border-width: 1px;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -126,11 +133,10 @@ select {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 
-
-  background-color: #f7f7f1;
+  background-color: #f1f4f7;
   padding: 8px 12px;
   border-radius: 4px;
   box-shadow: 0 1px 3px 0 #b0b1b1;
-  transition: box-shadow .15s ease;
+  transition: box-shadow 0.15s ease;
   border: 1px solid #ccc;
 }
