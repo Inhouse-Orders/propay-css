@@ -1,8 +1,8 @@
-.FieldsetOrder {
+.FieldSetOrder {
   display: none;
 }
 
-.Fieldset {
+.fieldset {
   border: 0;
 }
 
@@ -10,7 +10,7 @@
   display: none;
 }
 
-.RequiredFeild {
+.RequiredField {
   color: red;
 }
 
