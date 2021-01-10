@@ -6,16 +6,16 @@ html, body {
   height: auto;
 }
 
-.FieldSet {
+/* .FieldSet {
   border: 2px solid #ccc;
   border-radius: 8px;
-}
+} */
 
-/* .Legend,
+.Legend,
 .FormDescription,
 .FieldSetOrder {
   display: none;
-} */
+}
 
 .RequiredField {
   color: red;
